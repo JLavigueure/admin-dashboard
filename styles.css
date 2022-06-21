@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --black: #042a2b;
+    --blue: #5eb1bf;
+    --cyan: #cdedf6;
+    --orange: #ef7b45;
+    --red: #d84727;
+}
+
+.header {
+    background-color: white;
+}
+
+.sidebar {
+    background-color: var(--orange);
+}
+
+.main {
+    background-color: rgb(193, 193, 193);
+}
