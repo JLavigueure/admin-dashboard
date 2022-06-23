@@ -121,18 +121,30 @@ width: auto;
     display: grid;
     grid-template-rows: 150px 500px 300px;
     padding-bottom: 40vh;
-    padding-left: 2.5rem;
+    padding-left: 2rem;
     padding-top: 30px;
 }
 
 .sidebar li, .sidebar h1 {
-    padding-top: 25px;
     color: white;
     font-weight: 700;
+    font-size: 30px;
 }
 
 .sidebar h1 {
-    font-size: 35px;
+    font-size: 40px;
+}
+
+.link {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.dash {
+    padding-top: 0px;
+    align-items: flex-start;
 }
 
 .main {
